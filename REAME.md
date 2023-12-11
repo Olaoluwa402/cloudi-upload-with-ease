@@ -10,29 +10,34 @@ A Node.js utility for easy file uploads to [Cloudinary](https://cloudinary.com/)
 
 ```bash
 npm install cloudi-upload-with-ease
+```
 
-Usage
-Import the utility functions
+## Usage
 
+### Import the utility functions
+
+```bash
 const {
   uploadToCloudinary,
   uploadSingleOrMultiImagesToCloudinary,
 } = require('cloudi-upload-with-ease');
+```
 
+## Configuration
 
-Configuration
+### Before using the utility functions, make sure to configure Cloudinary with your credentials.
 
-Before using the utility functions, make sure to configure Cloudinary with your credentials.
-
+```bash
 const config = {
   cloudinary_cloud_name: 'your_cloud_name',
   cloudinary_api_key: 'your_api_key',
   cloudinary_api_secret: 'your_api_secret',
 };
+```
 
+## Upload a Single File
 
-Upload a Single File
-
+```bash
 const file = '/path/to/your/file.jpg'; // Provide the path to your file
 const type = 'image'; // Specify the type: 'image', 'video', 'raw', 'auto', etc.
 
@@ -43,15 +48,17 @@ uploadToCloudinary(file, type, config)
   .catch((error) => {
     console.error('Error uploading file:', error);
   });
+```
 
+## Upload Single or Multiple Files
 
-Upload Single or Multiple Files
-
+```bash
 const files = [
   { path: '/path/to/image1.jpg' },
   { path: '/path/to/image2.jpg' },
   // ... add more files as needed
 ];
+
 const type = 'image'; // Specify the type: 'image', 'video', 'raw', 'auto', etc.
 
 uploadSingleOrMultiImagesToCloudinary(files, type, config)
@@ -62,17 +69,19 @@ uploadSingleOrMultiImagesToCloudinary(files, type, config)
     console.error('Error uploading files:', error);
   });
 
+```
 
-License
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
+
 Cloudinary - Cloud-based image and video management service.
 
-Contributing
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
+## Contributing
 
-```
+Contributions are welcome! Please feel free to open an issue or submit a pull request.
 
 ## Author
 
