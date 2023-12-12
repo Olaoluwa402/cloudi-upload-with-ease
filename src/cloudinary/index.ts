@@ -1,7 +1,7 @@
 import cloudinary, { UploadApiResponse } from 'cloudinary';
 import { IImageFile, Iconfig, IUploadedResponse } from '../interface';
 
-const uploadToCloudinary = async (
+export const uploadToCloudinary = async (
     file: any,
     type: 'image' | 'video' | 'raw' | 'auto' | undefined,
     config: Iconfig,
@@ -37,7 +37,7 @@ const uploadToCloudinary = async (
     });
 };
 
-const uploadSingleOrMultiImagesToClodinary = async (
+export const uploadSingleOrMultiImagesToClodinary = async (
     files: IImageFile[],
     type: 'image' | 'video' | 'raw' | 'auto' | undefined,
     config: Iconfig,
@@ -70,5 +70,3 @@ const uploadSingleOrMultiImagesToClodinary = async (
 
     return finalRes;
 };
-
-export { uploadToCloudinary, uploadSingleOrMultiImagesToClodinary };
