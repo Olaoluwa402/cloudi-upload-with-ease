@@ -1,6 +1,6 @@
 {
     "name": "cloudi-upload-with-ease",
-    "version": "1.2.0",
+    "version": "1.20.0",
     "description": "upload to cloudinary with ease",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
@@ -39,11 +39,10 @@
     "devDependencies": {
         "@types/express": "^4.17.21",
         "@types/node": "^20.10.4",
-        "cloudinary": "^1.41.0",
         "ts-node-dev": "^2.0.0",
         "typescript": "^5.3.3"
     },
-    "peerDependencies": {
+    "dependencies": {
         "cloudinary": "^1.41.0"
     }
 }

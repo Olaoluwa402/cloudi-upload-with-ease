@@ -19,14 +19,14 @@ npm install cloudi-upload-with-ease
 ```bash
 const {
   uploadToCloudinary,
-  uploadSingleOrMultiImagesToCloudinary,
+  uploadSingleOrMultiImagesToClodinary,
 } = require('cloudi-upload-with-ease');
 ```
 
 ```bash
 import {
   uploadToCloudinary,
-  uploadSingleOrMultiImagesToCloudinary,
+  uploadSingleOrMultiImagesToClodinary,
 } from 'cloudi-upload-with-ease';
 ```
 
@@ -68,7 +68,7 @@ const files = [
 
 const type = 'image'; // Specify the type: 'image', 'video', 'raw', 'auto', etc.
 
-uploadSingleOrMultiImagesToCloudinary(files, type, config)
+uploadSingleOrMultiImagesToClodinary(files, type, config)
   .then((response) => {
     console.log('Files uploaded successfully:', response);
   })
