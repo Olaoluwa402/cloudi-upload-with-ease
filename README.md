@@ -1,10 +1,10 @@
 # Cloudinary File Upload Utility for Node.js
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D%2012-brightgreen.svg)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Node.js](https://img.shields.io/badge/node-%3E%3D%2012-brightgreen.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/npm/v/cloudinary-upload-util.svg)](https://www.npmjs.com/package/cloudinary-upload-util)
 
-A Node.js utility for easy file uploads to [Cloudinary](https://cloudinary.com/). Simplify the process of uploading images and videos with two convenient functions: `uploadToCloudinary` and `uploadSingleOrMultiImagesToCloudinary`.
+A Node.js utility for easy file uploads to [Cloudinary](https://cloudinary.com/). Simplify the process of uploading images and videos with two convenient functions: `uploadToCloudinary` and
+`uploadSingleOrMultiImagesToCloudinary`.
 
 ## Installation
 
@@ -21,6 +21,13 @@ const {
   uploadToCloudinary,
   uploadSingleOrMultiImagesToCloudinary,
 } = require('cloudi-upload-with-ease');
+```
+
+```bash
+import {
+  uploadToCloudinary,
+  uploadSingleOrMultiImagesToCloudinary,
+} from 'cloudi-upload-with-ease';
 ```
 
 ## Configuration

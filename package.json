@@ -14,12 +14,26 @@
     },
     "keywords": [
         "upload",
-        "files"
+        "files",
+        "Cloudinary",
+        "File Upload",
+        "Image Hosting",
+        "Media Management",
+        "Utility Function",
+        "Image Processing",
+        "Cloud Storage",
+        "API Integration",
+        "File Handling",
+        "Web Development"
     ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Olaoluwa402/cloudi-upload-with-ease"
     },
+    "bugs": {
+        "url": "https://github.com/Olaoluwa402/cloudi-upload-with-ease/issues"
+    },
+    "homepage": "https://github.com/Olaoluwa402/cloudi-upload-with-ease#readme",
     "author": "Olaoluwa Daniel IBUKUN",
     "license": "MIT",
     "devDependencies": {
