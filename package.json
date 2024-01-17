@@ -1,7 +1,7 @@
 {
     "name": "cloudi-upload-with-ease",
     "version": "1.20.3",
-    "description": "files (image, video, audio) upload to cloudinary made easy. upload either single or multiple files to cloudinary with ease",
+    "description": "A Node.js utility for easy file uploads to Cloudinary. Simplify the process of uploading images and videos with two convenient functions: uploadToCloudinary and uploadSingleOrMultiImagesToCloudinary",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "files": [
