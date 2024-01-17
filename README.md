@@ -80,7 +80,9 @@ uploadSingleOrMultiImagesToClodinary(files, type, config)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Olaoluwa402/cloudi-upload-with-ease/LICENSE) file for details.
 
 ## Acknowledgments
 
