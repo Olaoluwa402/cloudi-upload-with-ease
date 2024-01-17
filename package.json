@@ -1,6 +1,6 @@
 {
     "name": "cloudi-upload-with-ease",
-    "version": "1.20.0",
+    "version": "1.20.1",
     "description": "upload to cloudinary with ease",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
